@@ -1,4 +1,44 @@
+body {    
+    margin: 0
+}
+
+.header-hero-wrapper{
+    background-color: #1f2937;
+    padding: 32px 60px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-link {
+    font-weight: bold;
+    font-size: 28px;
+    color: #F9FAF8;
+
+}
+
+.right-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+
+
+
 img {
     height: 200px;
     width: 400px;
+}
+
+ul {
+    gap: 16px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }

@@ -1,4 +1,4 @@
-body {    
+body { 
     margin: 0
 }
 
@@ -76,14 +76,57 @@ button {
     width: 45%;
 }
 
-
-
-
-
-img {
-    height: 200px;
-    width: 400px;
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 32px 150px;
 }
+
+
+
+
+.content-sub {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    /* width: 250px;
+    height: 300px; */
+}
+
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.img-wrapper > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: solid #3882f6;
+    
+}
+
 
 ul {
     gap: 16px;

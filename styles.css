@@ -135,3 +135,24 @@ ul {
     margin: 0;
     list-style: none;
 }
+
+.quote-wrapper {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 32px 150px;
+    margin-bottom: 50px;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+}

@@ -188,3 +188,12 @@ ul {
     color: #F9FAF8;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 32px 150px;
+    margin-top: auto;
+    justify-content: center;
+    color: #F9FAF8;
+}

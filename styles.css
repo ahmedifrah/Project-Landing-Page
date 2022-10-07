@@ -156,3 +156,35 @@ ul {
     font-weight: bold;
     font-size: 24px;
 }
+
+.call-to-action-wrapper {
+    padding: 32px 150px;
+    margin-bottom: 50px;
+}
+
+.cta-main {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 20px 80px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    font-size: 24px;
+    
+}
+
+.cta-text-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button > button {
+    width: 150px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 12px;
+    color: #F9FAF8;
+    text-align: center;
+}
